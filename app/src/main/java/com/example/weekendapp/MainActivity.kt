@@ -26,10 +26,16 @@ class MainActivity : AppCompatActivity() {
             Food(R.drawable.spinat, "Spinat Pasta "),
             Food(R.drawable.tomaten, "Tomaten Pasta"),
             Food(R.drawable.parmesan, "Parmesan Pasta"),
-            Food(R.drawable.basilikum, "Basilikum Pasta")
+            Food(R.drawable.basilikum, "Basilikum Pasta"),
+            Food(R.drawable.pasta, "Pasta"),
+            Food(R.drawable.spinat, "Spinat Pasta "),
+            Food(R.drawable.tomaten, "Tomaten Pasta"),
+            Food(R.drawable.parmesan, "Parmesan Pasta"),
+            Food(R.drawable.basilikum, "Basilikum Pasta"),
 
 
-        )
+
+            )
 
 
         foodAdapter = FoodAdapter(foodList)
